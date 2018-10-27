@@ -1,0 +1,41 @@
+
+$bg-color: rgb(181, 192, 192); 
+$jumbo-bg: -webkit-linear-gradient(left, red, orange, yellow, lightgreen, green, blue,indigo, violet);
+
+$theme-colors: (
+    "primary": #16254c,
+    "secondary": rgb(147, 156, 177),
+    "danger": #B23850,
+    "light": #E7E3D4,
+    "info": #C4DBF6,
+);
+
+body {
+    
+    #scroll-up {
+        font-size: 3em;
+    }
+    
+    .jumbotron {
+        
+        
+        border-radius: 0;
+        height: 100vh;
+        
+            
+       
+    
+    }
+        
+    
+    .border-light {
+        border: 5px solid white !important;
+    }
+    
+    .fa-facebook {
+        font-size: 2em;
+    }
+    
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
